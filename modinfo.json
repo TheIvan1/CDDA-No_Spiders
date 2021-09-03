@@ -1,0 +1,46 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "No_Spiders",
+    "name": "No More Spiders",
+    "authors": [ "BucketOBudgies" ],
+    "description": "Removes spiders from the game.",
+    "category": "monster_exclude",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "categories": [ "GROUP_SPIDER" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+     "mon_spider_cellar_giant",
+     "mon_spider_widow_giant",
+	 "mon_spider_cellar_small",
+	 "mon_spider_cellar_mega",
+	 "mon_spider_cellar_giant_s",
+	 "mon_spider_jumping_small",
+	 "mon_spider_jumping_giant",
+	 "mon_spider_jumping_mega",
+	 "mon_spider_trapdoor_small",
+	 "mon_spider_trapdoor_giant",
+	 "mon_spider_trapdoor_mega",
+	 "mon_spider_web_small",
+	 "mon_spider_web",
+	 "mon_spider_web_mega",
+	 "mon_spider_web_s",
+	 "mon_spider_widow_small",
+	 "mon_spider_widow_giant",
+	 "mon_spider_widow_mega",
+	 "mon_spider_widow_giant_s",
+	 "mon_spider_wolf_small",
+	 "mon_spider_wolf_giant",
+	 "mon_spider_wolf_mega",
+	 "mon_dermatik_incubator_spider",
+	 "mon_spider_fungus",
+	 "mon_zpider_mass"
+    ]
+  },
+
+]
